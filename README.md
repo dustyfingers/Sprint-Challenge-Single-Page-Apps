@@ -25,13 +25,13 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer:less page refreshes = cleaner user experience 
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: asynchronous Javascript and Xml
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer: 
 - [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+> Answer: axios, 
 
 
 ## Project Set Up
@@ -70,18 +70,18 @@ You can test them individually before adding in the Router (Part 2).
 Create 3 page components to display data from 3 API endpoints:
 
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
-- `https://rickandmortyapi.com/api/locations/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
-- `https://rickandmortyapi.com/api/episodes/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
+- `https://rickandmortyapi.com/api/location/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
+- `https://rickandmortyapi.com/api/episode/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
 
-- [ ] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
-- [ ] Create a component to show a grid of data from the API.
-  - [ ] Include `useState`, `useEffect`.
-  - [ ] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
+- [x] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
+- [x] Create a component to show a grid of data from the API.
+  - [x] Include `useState`, `useEffect`.
+  - [x] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
   - _Example API Endpoint: `https://rickandmortyapi.com/api/character/`_
-  - [ ] Display API results using a [card](https://react.semantic-ui.com/views/card/#content-image-card) grid or [list](https://react.semantic-ui.com/elements/list/#content-icon) UI on the page.
-  - [ ] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
-  - [ ] Use a styling or component library. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [ReactStrap](https://reactstrap.github.io), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)).
-  - [ ] Before adding routing, check each component manually by importing into `App.js` and adding to JSX.
+  - [x] Display API results using a [card](https://react.semantic-ui.com/views/card/#content-image-card) grid or [list](https://react.semantic-ui.com/elements/list/#content-icon) UI on the page.
+  - [x] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
+  - [x] Use a styling or component library. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [ReactStrap](https://reactstrap.github.io), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)).
+  - [x] Before adding routing, check each component manually by importing into `App.js` and adding to JSX.
 
 > 💡**reminder:** `git commit -am 'Part 1 Completed'`
 
@@ -89,13 +89,13 @@ Create 3 page components to display data from 3 API endpoints:
 
 Add a Router to this application by using [React Router](https://reacttraining.com/react-router/web/guides/quick-start).
 
-- [ ] Start by wrapping your `root` component in the `BrowserRouter` component.
-- [ ] Declare your 3 routes with `<Route>` components for each component created above..
-- [ ] Include `/characters`, `/locations` and `/episodes` routes.
-- [ ] In your `App` component, add a [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic) that will use React Routers `NavLink` components to link to your different pages.
-- [ ] Make sure to use `<Link>` component instead of `<a>` elements.
+- [x] Start by wrapping your `root` component in the `BrowserRouter` component.
+- [x] Declare your 3 routes with `<Route>` components for each component created above..
+- [x] Include `/characters`, `/locations` and `/episodes` routes.
+- [x] In your `App` component, add a [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic) that will use React Routers `NavLink` components to link to your different pages.
+- [x] Make sure to use `<Link>` component instead of `<a>` elements.
 
-- [ ] **Make sure all tasks are complete:** Do a global search (Cmd-Shift-F in VS Code) for the string `TODO:`.
+- [x] **Make sure all tasks are complete:** Do a global search (Cmd-Shift-F in VS Code) for the string `TODO:`.
 
 > 💡**reminder:** `git commit -am 'MVP Completed'`
 
